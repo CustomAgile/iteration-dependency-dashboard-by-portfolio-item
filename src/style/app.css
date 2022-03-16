@@ -1,0 +1,58 @@
+.app {
+}
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background: #C0C0C0;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.state-legend {
+    background: #006600 none repeat scroll 0%;
+    border: 1px solid #DDDDDD;
+    color: #FFFFFF;
+    cursor: default;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    margin-right: 2px;
+    text-align: center;
+    width: 18px;
+}
+
+.story-header {
+    font: bold 11px Arial, sans-serif;
+}
+
+.iteration-header{
+    font: bold 14px Arial, sans-serif;
+}
+
+.state-legend-red {
+    background-color: red !important;
+}
+
+.state-legend-yellow {
+    background-color: yellow !important;
+    color: black;
+}
+
+.state-legend-green {
+    background-color: green !important;
+}
+
+span.state-legend-grey {
+    padding: 1px 3px 2px 3px;
+    color: black;
+    background-color: #DCDCDC !important;
+}
+
